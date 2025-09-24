@@ -132,7 +132,7 @@ Listed partitions via `/dev/block/platform/.../by-name/.`
 Exact command: `ls -la /dev/block/platform/mtk-msdc.0/11230000.msdc0/`  
 
 Dumped the first 0x4400 bytes of mmcblk0 (raw eMMC) in BROM mode.  
-Parsed with gdisk → got the GPT.  
+Parsed with gdisk (on my Host machine) → got the GPT.  
 Built scatter file from start addresses & sizes.  
 
 Example GPT dump (abridged):
