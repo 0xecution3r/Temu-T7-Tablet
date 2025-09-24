@@ -131,6 +131,38 @@ How:
 Listed partitions via `/dev/block/platform/.../by-name/.`  
 Exact command: `ls -la /dev/block/platform/mtk-msdc.0/11230000.msdc0/`  
 
+Results? 
+
+```
+T7:/ $ ls -la /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/                                                         
+total 0
+drwxr-xr-x 2 root root 500 2015-02-07 09:36 .
+drwxr-xr-x 4 root root 620 2015-02-07 09:36 ..
+lrwxrwxrwx 1 root root  20 2015-02-07 09:36 boot -> /dev/block/mmcblk0p7
+lrwxrwxrwx 1 root root  21 2015-02-07 09:36 cache -> /dev/block/mmcblk0p21
+lrwxrwxrwx 1 root root  21 2015-02-07 09:36 expdb -> /dev/block/mmcblk0p10
+lrwxrwxrwx 1 root root  21 2015-02-07 09:36 flashinfo -> /dev/block/mmcblk0p23
+lrwxrwxrwx 1 root root  21 2015-02-07 09:36 frp -> /dev/block/mmcblk0p17
+lrwxrwxrwx 1 root root  21 2015-02-07 09:36 keystore -> /dev/block/mmcblk0p14
+lrwxrwxrwx 1 root root  20 2015-02-07 09:36 lk -> /dev/block/mmcblk0p5
+lrwxrwxrwx 1 root root  20 2015-02-07 09:36 logo -> /dev/block/mmcblk0p9
+lrwxrwxrwx 1 root root  21 2015-02-07 09:36 metadata -> /dev/block/mmcblk0p19
+lrwxrwxrwx 1 root root  21 2015-02-07 09:36 nvdata -> /dev/block/mmcblk0p18
+lrwxrwxrwx 1 root root  20 2015-02-07 09:36 nvram -> /dev/block/mmcblk0p2
+lrwxrwxrwx 1 root root  21 2015-02-07 09:36 oemkeystore -> /dev/block/mmcblk0p12
+lrwxrwxrwx 1 root root  20 2015-02-07 09:36 para -> /dev/block/mmcblk0p6
+lrwxrwxrwx 1 root root  20 2015-02-07 09:36 proinfo -> /dev/block/mmcblk0p1
+lrwxrwxrwx 1 root root  20 2015-02-07 09:36 protect1 -> /dev/block/mmcblk0p3
+lrwxrwxrwx 1 root root  20 2015-02-07 09:36 protect2 -> /dev/block/mmcblk0p4
+lrwxrwxrwx 1 root root  20 2015-02-07 09:36 recovery -> /dev/block/mmcblk0p8
+lrwxrwxrwx 1 root root  21 2015-02-07 09:36 seccfg -> /dev/block/mmcblk0p11
+lrwxrwxrwx 1 root root  21 2015-02-07 09:36 secro -> /dev/block/mmcblk0p13
+lrwxrwxrwx 1 root root  21 2015-02-07 09:36 system -> /dev/block/mmcblk0p20
+lrwxrwxrwx 1 root root  21 2015-02-07 09:36 tee1 -> /dev/block/mmcblk0p15
+lrwxrwxrwx 1 root root  21 2015-02-07 09:36 tee2 -> /dev/block/mmcblk0p16
+lrwxrwxrwx 1 root root  21 2015-02-07 09:36 userdata -> /dev/block/mmcblk0p22
+```
+
 Dumped the first 0x4400 bytes of mmcblk0 (raw eMMC) in BROM mode.  
 Parsed with gdisk (on my Host machine) → got the GPT.  
 Built scatter file from start addresses & sizes.  
