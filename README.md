@@ -255,3 +255,5 @@ RAMboozled 16GB 🤯 → promises 16, delivers 2.
 Project Masquerade 🎭 → because literally every prop is spoofed.  
 
 Have fun, will add more stuff later. Peace y'all. :) <3
+
+P.S. If you wanna see some funny goodness packed into the tablet. Go to the Dialer and type in *#*#10000*#*# in your dialer app. Have fun cosplaying your T7 Snapdragon 865 tablet with 1TB internal storage.
