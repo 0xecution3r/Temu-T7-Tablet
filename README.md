@@ -256,5 +256,5 @@ Project Masquerade 🎭 → because literally every prop is spoofed.
 
 Have fun, will add more stuff later. Peace y'all. :) <3
 
-P.S. If you wanna see some funny goodness packed into the tablet. Go to the Dialer and type in *#*#10000*#*# in your dialer app. Have fun cosplaying your T7 Snapdragon 865 tablet with 1TB internal storage.
+P.S. If you wanna see some funny goodness packed into the tablet. Go to the Dialer and type in `*#*#10000*#*#` in your dialer app. Have fun cosplaying your T7 Snapdragon 865 tablet with 1TB internal storage.
 Please make sure you backup your preloader because I did not do that, nor dump it and list it within the scatter_file. If you have some time, make a pull request and I'll happily include it here. 
